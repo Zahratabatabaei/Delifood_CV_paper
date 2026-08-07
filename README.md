@@ -8,7 +8,15 @@
 This repository contains Python scripts used for image-based texture, fractal, and topological analyses. The scripts process either dynamic 2D TIFF image stacks or grayscale PNG images and generate numerical results and plots.
 
 The analysis logic, parameters, input-path variables, and output naming used in the supplied scripts have been retained. Before running a script, update its input path to match the location of your own data.
+## Dataset
 
+The complete microscopy dataset used in this study is archived separately on
+Zenodo:
+
+[https://doi.org/10.5281/zenodo.12345678](https://doi.org/10.5281/zenodo.21833632)
+
+After downloading and extracting the dataset, update the input paths in the
+analysis scripts to point to the corresponding TIFF files.
 ## Repository contents
 
 ### `lbp_histogram_overlay_analysis.py`
